@@ -1,3 +1,35 @@
 h1 {
-  color: magenta;
+  color: #15466d;
+  padding: 20px 30px;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 800px;
+  background-color: #f7f4c1;
+}
+.search-box {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  max-width: 800px;
+}
+.search-input {
+  background-color: #f8f8ee;
+  border: 1px solid white;
+  padding: 6px;
+}
+.search-button {
+  margin: 10px;
+  padding: 5px 20px;
+  background-color: #dddd4e;
+  color: #15466d;
+  border-radius: 10px;
+  border: 1px solid #15466d;
+}
+.icon-temp {
+  margin: 40px 100px;
+  color: #15466d;
+  font-size: 24px;
 }

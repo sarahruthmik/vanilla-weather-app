@@ -16,7 +16,45 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
+      <div class="weather">
+        <form id="search-form" class="search-box">
+          <input
+            type="text"
+            placeholder="Enter a city..."
+            autocomplete="off"
+            autofocus="on"
+            id="search-input-text"
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <h1 id="city-name">New York</h1>
+          <ul>
+            <li class="date-time">
+              <span id="date-time">Thursday 16:54</span>,
+              <span id="description">partly cloudy</span>
+            </li>
+            <li class="details">
+              Humidity:
+              <strong class="humidity" id="humidity"> 74%</strong>
+              , Wind:
+              <strong class="windspeed" id="windspeed"> 7.72 mph </strong>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <div class="icon-temp">
+            <span id="icon">cloud</span>
+            <strong class="bold-temp"
+              ><span id="current-temp">Temp</span>° F</strong
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
